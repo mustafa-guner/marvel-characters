@@ -1,0 +1,12 @@
+{
+  "name": "marvel",
+  "version": "1.0.0",
+  "description": "Marvel Character Profiles",
+  "main": "index.js",
+  "scripts": {
+    "test": "index.js",
+    "dev":"nodemon index.js"
+  },
+  "author": "Mustafa Guner",
+  "license": "MIT"
+}
