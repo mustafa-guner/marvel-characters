@@ -2,12 +2,12 @@
  
  //Ironman Flies Animation
  let ironmanFlies = new TimelineMax({repeat:-1})
- ironmanFlies.to(".ironmanFlies", 7, {
+ ironmanFlies.to(".ironmanFlies", 6, {
     bezier: {
         type: "quadratic",
         values: [
-/*p1*/{ x: 0, y: 0 }, { x: 0, y: 30 }, { x: 0, y: 75 },
-/*p2*/{ x: 0, y: 90 }, { x: 0, y: 0 }],
+/*p1*/{ x: 0, y: 0 }, { x: 0, y: 30 }, { x: 0, y: 55 },
+/*p2*/{ x: 0, y: 60 }, { x: 0, y: 0 }],
 
         autoRotate: false
     },

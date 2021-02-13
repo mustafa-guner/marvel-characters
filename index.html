@@ -6,10 +6,16 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link rel="stylesheet" href="./public/style.css">
 
-  <!--Icon-->
-  <link rel="icon" href="./Logos/avengers-ico.ico" <!--Google Fonts -->
+  <!--Css Files-->
+  <link rel="stylesheet" href="./public/css/style.css">
+  <link rel="stylesheet" href="./public/css/footer.css">
+  <link rel="stylesheet" href="./public/css/cards.css">
+
+  <!--Page Icon-->
+  <link rel="icon" href="./Logos/avengers-ico.ico">
+
+  <!--Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
 
@@ -23,7 +29,7 @@
 <body>
   <h1 class="assembly">Avengers Assemble!</h1>
   <div class="container">
-    <img class="ironmanFlies" src="./Logos/ironman-flies.png">
+    <img class="ironmanFlies" src="./Logos/Characters Colored/ironman-flies.png">
     <div class="chatCloud"></div>
     <div class="clickMessage">Click on hero symbols!..</div>
     <div class="avengers-wallpaper">
@@ -42,98 +48,94 @@
     </div>
 
     <div class="audio-control">
-
       <audio autoplay controls loop controls="controls">
-        <source src="./Logos/The-Avengers-Theme-Song.mp3" type="audio/ogg" autoplay="" muted />
+        <source src="./public/theme-music/The-Avengers-Theme-Song.mp3" type="audio/ogg" autoplay="" muted/>
         Your browser does not support the audio element.
       </audio>
     </div>
-
+   
   </div>
+
   <div class="desc">
     <div class="section-header">
-      <h1><span>A</span>vengers Squad</h1>
+      <h1>Avengers Squad</h1>
+     <div class="baloon">
+      <p>Click on logos to listen!</p>
+     </div>
     </div>
+   
     <div class="characters-cards">
       <div class="card-container">
         <div class="card-logo">
-          <img src="./Logos/Blacks/captain.png">
+          <img class="cap-voice" src="./Logos/Blacks/captain.png">
+          <audio class="character-sounds"><source src="./public/voices/captain.mp3"></audio>
         </div>
         <div class="card">
           <div class="card-photo-block">
-            <img src="./Logos/captain-black.jpg">
+            <img src="./Logos/Character Crops/captain-black.jpg">
           </div>
           <div class="card-body-content">
-
             <p>Captain America</p>
-
           </div>
         </div>
       </div>
 
       <div class="card-container">
         <div class="card-logo">
-          <img src="./Logos/Blacks/ironman.png">
+          <img class="ironman-voice" src="./Logos/Blacks/ironman.png">
+          <audio class="character-sounds"><source src="./public/voices/ironman.mp3"></audio>
         </div>
         <div class="card">
           <div class="card-photo-block">
-            <img src="./Logos/ironman-black.jpg">
+            <img src="./Logos/Character Crops/ironman-black.jpg">
           </div>
           <div class="card-body-content">
-
-            <p>Ironman</p>
-
+            <p>Iron-man</p>
           </div>
         </div>
       </div>
 
       <div class="card-container">
         <div class="card-logo">
-          <img src="./Logos/Blacks/spiderman.png">
+          <img class="spiderman-voice" src="./Logos/Blacks/spiderman.png">
+          <audio class="character-sounds"><source src="./public/voices/spiderman.mp3"></audio>
         </div>
         <div class="card">
           <div class="card-photo-block">
-            <img src="./Logos/spiderman-black.jpg">
+            <img src="./Logos/Character Crops/spiderman-black.jpg">
           </div>
           <div class="card-body-content">
-
-            <p>Spiderman</p>
-
+            <p>Spider-man</p>
           </div>
         </div>
       </div>
 
-
       <div class="card-container">
         <div class="card-logo">
-          <img src="./Logos/Blacks/hulk.png">
+          <img class="hulk-voice" src="./Logos/Blacks/hulk.png">
+          <audio class="character-sounds"><source src="./public/voices/hulk.mp3"></audio>
         </div>
         <div class="card">
           <div class="card-photo-block">
-            <img src="./Logos/hulk-black.jpg">
+            <img src="./Logos/Character Crops/hulk-black.jpg">
           </div>
           <div class="card-body-content">
-
             <p>Hulk</p>
-
           </div>
         </div>
       </div>
 
-
-
       <div class="card-container">
         <div class="card-logo">
-          <img src="./Logos/Blacks/hawekeye.png">
+          <img class="hawkeye-voice" src="./Logos/Blacks/hawekeye.png">
+          <audio class="character-sounds"><source src="./public/voices/hawekeye.mp3"></audio>
         </div>
         <div class="card">
           <div class="card-photo-block">
-            <img src="./Logos/hawekeye-black.jpg">
+            <img src="./Logos/Character Crops/hawekeye-black.jpg">
           </div>
           <div class="card-body-content">
-
             <p>Hawkeye</p>
-
           </div>
         </div>
       </div>
@@ -141,48 +143,45 @@
 
       <div class="card-container">
         <div class="card-logo">
-          <img src="./Logos/Blacks/panther.png">
+          <img class="panther-voice" src="./Logos/Blacks/panther.png">
+          <audio class="character-sounds"><source src="./public/voices/panther.mp3"></audio>
         </div>
         <div class="card">
           <div class="card-photo-block">
-            <img src="./Logos/black-panther-black.jpg">
+            <img src="./Logos/Character Crops/black-panther-black.jpg">
           </div>
           <div class="card-body-content">
-
             <p>Black Panther</p>
-
           </div>
         </div>
       </div>
 
       <div class="card-container">
         <div class="card-logo">
-          <img src="./Logos/Blacks/thor.png">
+          <img class="thor-voice" src="./Logos/Blacks/thor.png">
+          <audio class="character-sounds"><source src="./public/voices/thor.mp3"></audio>
         </div>
         <div class="card">
           <div class="card-photo-block">
-            <img src="./Logos/thor-black.jpg">
+            <img src="./Logos/Character Crops/thor-black.jpg">
           </div>
           <div class="card-body-content">
-
             <p>Thor</p>
-
           </div>
         </div>
       </div>
 
       <div class="card-container">
         <div class="card-logo">
-          <img src="./Logos/Blacks/blackwidow.png">
+          <img class="widow-voice" src="./Logos/Blacks/blackwidow.png">
+          <audio class="character-sounds"><source src="./public/voices/falcon.mp3"></audio>
         </div>
         <div class="card">
           <div class="card-photo-block">
-            <img src="./Logos/black-widow-black.jpg">
+            <img src="./Logos/Character Crops/black-widow-black.jpg">
           </div>
           <div class="card-body-content">
-
             <p>Black Widow</p>
-
           </div>
         </div>
       </div>
@@ -190,30 +189,50 @@
 
       <div class="card-container">
         <div class="card-logo">
-          <img src="./Logos/Blacks/falcon.png">
+          <img class="falcon-voice" src="./Logos/Blacks/falcon.png">
+          <audio class="character-sounds"><source src="./public/voices/falcon.mp3"></audio>
         </div>
         <div class="card">
           <div class="card-photo-block">
-            <img src="./Logos/falcon-black-2.jpg">
+            <img src="./Logos/Character Crops/falcon-black.jpg">
           </div>
           <div class="card-body-content">
-
             <p>Falcon</p>
-
           </div>
         </div>
       </div>
 
+
+      <!--Character Profiles (Circled Icons Tapped)-->
+      <div class="ironman-profile">
+
+      </div>
+
+
+      <!--Footer-->
     </div>
   </div>
   <footer>
-    <h1>FOOTER</h1>
+    <div class="marvel-logo">
+      <a href="https://www.marvel.com/" target="_blank"><img src="./Logos/marvelStudios.jpg"></a>
+      <p>This website used <a href="https://developer.marvel.com/" target="_blank">Marvel API</a></p>
+    </div>
+    <div class="social-logos">
+      <div class="social-block">
+        <a href="https://github.com/slex1one-Musdy" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://www.instagram.com/guner_dev/"><i class="fab fa-instagram" target="_blank"></i></a>
+        <a href="https://dribbble.com/musdy_guner99" target="_blank"><i class="fab fa-dribbble"></i></a>
+      </div>
+      <div class="owner-of-site">
+        <p>Designed & Developed by  <a href="mailto:mustafa-guner.guner@outlook.com"> Mustafa</a></p>
+      </div>
+    </div>
   </footer>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
   <script src=" https://cdnjs.cloudflare.com/ajax/libs/gsap/1.11.8/TweenMax.min.js"></script>
-  <script src="./public/animations.js"></script>
-  <script src="./public/audio.js"></script>
+  <script src="./public/js/animations.js"></script>
+  <script src="./public/js/audio.js"></script>
 
 
 </body>

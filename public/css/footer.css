@@ -1,0 +1,90 @@
+/*Footer*/
+
+footer {
+    background-color: #010101;
+    height:100%;
+    margin-top: auto;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: space-around;
+    /*clip-path: polygon(0 0, 100% 0, 100% 100%, 0 88%);*/
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 77%);
+}
+
+footer .marvel-logo{
+    width: 350px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+footer .marvel-logo p,footer .owner-of-site p{
+    font-family: 'Bangers', cursive;
+}
+
+footer .marvel-logo p a, footer .owner-of-site a{
+    margin-left: .4rem;
+}
+
+footer .marvel-logo img{
+    width: 100%;
+    height: auto;
+    filter: grayscale(100%);
+    transition: filter .8s ease-out;
+}
+footer .marvel-logo img:hover{
+    filter: grayscale(0%);
+}
+
+footer .marvel-logo a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+footer .marvel-logo a:hover,footer .owner-of-site a:hover{
+    color: #E61C23;
+}
+
+footer .social-logos{
+    color: white;
+    align-self: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+footer .social-block{
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+footer .social-logos .social-block a {
+    font-size: 2.5rem;
+    cursor: pointer;
+    color: white; 
+    transition: all .5s ease-in-out;
+}
+
+footer .social-logos .social-block a:hover{
+    transform: rotate(360deg);
+}
+
+footer .social-logos .owner-of-site{
+   text-align: center;
+   margin-top: .6rem;
+   padding:10px 0;
+   border-top: 2px solid;
+   border-radius: 2px;
+}
+
+
+footer .owner-of-site a{
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    
+}
