@@ -88,3 +88,17 @@ footer .owner-of-site a{
     text-decoration: none;
     
 }
+
+
+@media screen and (max-width: 375px){
+
+    footer {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /*clip-path: polygon(0 0, 100% 0, 100% 100%, 0 88%);*/
+        clip-path: polygon(0 15%, 100% 15%, 100% 100%, 0% 100%);
+
+
+    }
+}

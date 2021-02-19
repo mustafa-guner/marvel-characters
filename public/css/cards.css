@@ -1,6 +1,4 @@
 /*Cards Section*/
-
-
 .section-header {
     text-align: center;
     padding: 2rem 0;
@@ -52,11 +50,10 @@
 }
 .desc{
     background-color: #fff;
-   
 }
 
 .desc .characters-cards {
- 
+    overflow-y: hidden;
     margin: 6rem 0;
     padding: 2rem;
     display: grid;
@@ -158,4 +155,53 @@
 
 .card:hover .card-photo-block img{
     transform: translateX(-10%);
+}
+
+
+@media screen and (max-width: 375px){
+    *{
+        overflow-x: hidden;
+    }
+
+    .desc .characters-cards{
+        margin: 1rem;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .desc .characters-cards .card{
+        width: 320px;
+        height: 420px;
+    }
+
+    .card-photo-block{
+        overflow-y: hidden;
+    }
+
+    .section-header {
+        height: 350px;
+        width: 350px;
+        margin-bottom: 0rem;
+        overflow:hidden;
+    }
+    .section-header .baloon{
+        width: 280px;
+        height: 180px;
+        transform: rotate(0deg);
+        top: 90px;
+        right: 8%;
+        overflow-y: hidden;
+    }
+
+    .section-header .baloon p{
+        width: 280px;
+        height: 180px;
+        transform: rotate(0deg);
+        top: 75px;
+        left: 1%;
+        font-size: 1.1rem;
+    }
+    
+    
 }
